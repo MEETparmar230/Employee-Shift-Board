@@ -154,7 +154,7 @@ VITE_SERVER=http://localhost:5000
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/shift-management-system.git
+git clone https://github.com/MEETparmar230/Employee-Shift-Board.git
 ```
 
 ### 2️⃣ Backend Setup
