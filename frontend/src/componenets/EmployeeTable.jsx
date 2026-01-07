@@ -43,7 +43,7 @@ export default function EmployeeTable() {
         )
     }
   return (
-    <div className='text-zinc-200 px-5'>
+    <div className='text-zinc-200 px-5 max-w-6xl mx-auto'>
         <h1 className='text-3xl font-bold my-6'>EmployeeTable</h1>
         <table className='w-full border border-zinc-700  rounded-lg overflow-hidden shadow-lg'>
             <thead className='bg-zinc-800 text-zinc-200'>

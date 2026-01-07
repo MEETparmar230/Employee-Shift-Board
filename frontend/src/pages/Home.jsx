@@ -5,7 +5,7 @@ import SingleShift from '../componenets/SingleShift';
 
 
 export default function Home() {
-   const {role } = useAuth()
+   const {role} = useAuth()
 
    if(role === "admin")
   return (
@@ -20,7 +20,7 @@ export default function Home() {
 
   )
 
-  else if(role!= "user"){
+  else if(role==='user'){
     return(
   <div>
   <SingleShift/>

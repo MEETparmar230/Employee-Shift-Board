@@ -50,14 +50,14 @@ A full-stack Shift Management System built with React, Node.js, Express, and Mon
 ## 📂 Project Structure
 
 ```
-├── client/
+├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── AuthContext.jsx
 │   │   └── main.jsx
 │   └── ...
-├── server/
+├── backend/
 │   ├── controllers/
 │   │   ├── userController.js
 │   │   ├── shiftController.js
@@ -70,10 +70,18 @@ A full-stack Shift Management System built with React, Node.js, Express, and Mon
 │   │   ├── userRouter.js
 │   │   ├── shiftRouter.js
 │   │   └── adminRouter.js
+|   ├── services/
+│   │   ├── adminServices.js
+│   │   ├── shiftServices.js
+│   │   └── userServices.js
 │   ├── lib/
 │   │   ├── authMiddleware.js
 │   │   ├── db.js
 │   │   └── errHandler.js
+|   ├── zod/
+│   │   ├── User.js
+│   │   ├── Employee.js
+│   │   └── Shift.js
 │   └── server.js
 ```
 

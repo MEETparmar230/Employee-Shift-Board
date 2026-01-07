@@ -114,7 +114,7 @@ export default function Shifts() {
                   {shift.employeeId?.name}
                 </td>
                 <td className="p-3 border-b border-zinc-700">
-                  {new Date(shift.date).toLocaleDateString()}
+                  {(shift.date).split("-").reverse().join("/")}
                 </td>
                 <td className="p-3 border-b border-zinc-700">
                   {shift.startTime}
