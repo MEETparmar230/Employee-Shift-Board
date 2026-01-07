@@ -167,14 +167,14 @@ git clone https://github.com/MEETparmar230/Employee-Shift-Board.git
 
 ### 2️⃣ Backend Setup
 ```bash
-cd server
+cd backend
 npm install
 npm run dev
 ```
 
 ### 3️⃣ Frontend Setup
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
@@ -208,4 +208,3 @@ npm run dev
 ## 👨‍💻 Author
 
 Meet Web Developer | MERN Stack 💻
-Passionate about scalable backend systems
